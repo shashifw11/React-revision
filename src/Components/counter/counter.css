@@ -1,7 +1,36 @@
-.yellow{
-    color : yellow ; 
-  }
+.button{
+  width : 300px ; 
+  height : 70px ; 
+  border : 2px solid brown;
+  margin : auto ; 
+  cursor: pointer;
+  display : flex ; 
+  justify-content: space-around;
+  border-radius : 20px ; 
+}
 
-.tomato{
-    color : tomato ; 
-  }
+.button>div{
+  color : brown ; 
+   width : 33% ; 
+   font-size: 30px;
+ padding-top: 10px;
+ font-weight: bolder;
+}
+
+
+.button>div:nth-child(1){
+  border-left: 20px;
+   border-right : 2px solid brown;
+} 
+
+.button>div:nth-child(3){
+  border-top-right-radius: 17px ; 
+  border-bottom-right-radius: 17px;
+  border-left : 2px solid brown;
+  background-color:  brown;
+  color : white ; 
+}
+
+.button>div:nth-child(2){
+  background-color: rgb(212, 165, 165);
+}
